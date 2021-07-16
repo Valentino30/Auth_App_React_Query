@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 
 export default function Auth() {
   const { pathname } = useLocation();
-  console.log({ pathname });
   return (
     <div>{pathname === "/register" ? <h1>Register</h1> : <h1>Login</h1>}</div>
   );
