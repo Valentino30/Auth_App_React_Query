@@ -1,8 +1,8 @@
 import { Switch, Redirect } from "react-router-dom";
 
 import "./App.css";
-import Auth from "./components/Auth";
-import Dashboard from "./components/Dashboard";
+import Auth from "./containers/Auth";
+import Dashboard from "./containers/Dashboard";
 import PublicRoute from "./routes/PublicRoute";
 import PrivateRoute from "./routes/PrivateRoute";
 
